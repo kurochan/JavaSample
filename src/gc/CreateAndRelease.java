@@ -3,8 +3,8 @@ package gc;
 public class CreateAndRelease {
 
 	/*
-	 * 実行時、-verbose:gc オプションをつけて実行すると、GCが発生したタイミングが分かる 例: java -verbose:gc
-	 * gc.CreateAndRelease
+	 * 実行時、-verbose:gc オプションをつけて実行すると、GCが発生したタイミングが分かる
+	 * 例: java -verbose:gc gc.CreateAndRelease
 	 */
 
 	static void printUsedMemory() {
