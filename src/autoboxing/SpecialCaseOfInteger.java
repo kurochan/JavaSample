@@ -1,5 +1,11 @@
 package autoboxing;
 
+/*
+ * intからIntegerへはnew Integer()でなくInteger.valueOf()が使われる
+ * Integerクラスは一定範囲の値を示すオブジェクトをキャッシュしてる。
+ * Flyweightパターンと言うらしい。
+ */
+
 public class SpecialCaseOfInteger {
 	public static void main(String[] args) {
 		Integer n1 = 10;
