@@ -1,4 +1,4 @@
-package reentrant;
+package thread;
 
 interface BankAccount {
 	public int getBalances();

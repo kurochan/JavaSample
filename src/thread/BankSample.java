@@ -1,4 +1,4 @@
-package reentrant;
+package thread;
 
 public class BankSample extends Thread {
 	private String name;
