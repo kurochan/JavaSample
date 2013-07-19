@@ -4,13 +4,13 @@ public class StandardOutput {
 
 	public static void main(String[] args) {
 		// 末尾に改行が付加される
-		System.out.println("Hello! World");
+		System.out.println("Hello World!");
 		System.out.println(123);
 		System.out.println("value is " + 123);
 
 		// 末尾に改行は付加されない
-		System.out.print("Hello! ");
-		System.out.print("World \n");
+		System.out.print("Hello ");
+		System.out.print("World!\n");
 
 		// C言語のprintfみたいな要領で使える
 		System.out.printf("value is %d %d\n", 123, 456);
